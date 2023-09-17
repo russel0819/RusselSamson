@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../img/social/Socialbackground2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.hero{
+    height: 100vh;
+    width: 100%;  
+}
+.container{
+    text-align: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    list-style-type: none;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+}
+.button:hover{
+    color:gray;
+    border: 1.5px solid gray;
+    background-color: white ;
+    transition: 0.5s;
+    
+}
+/* tables */
+.table1{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+.table2{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 20px;
+  }
+th{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 25px;
+    background-color: #91a4b2;
+    padding: 20px;
+    border-radius: 20px;
+}
+td{
+    align-items: center;
+    padding: 10px;
+}
+/*Links of Images*/
+.tiktok1, .fb1, .yt1, .insta1{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 3px;
+}
+.tiktok1:hover, .fb1:hover, .yt1:hover, .insta1:hover{
+    color:blue;
+    transition: 0.5s;
+    
+}
+/* Images */
+.fb{
+
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.tiktok{
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
